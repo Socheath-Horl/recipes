@@ -9,7 +9,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_b79327d05b8e5b838ad6cfd9576b30b6",
         "label": "Chicken Vesuvio",
-        "image": "https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg",
+        "image": "https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg",
         "source": "Serious Eats",
         "url": "http://www.seriouseats.com/recipes/2011/12/chicken-vesuvio-recipe.html",
         "shareAs": "http://www.edamam.com/recipe/chicken-vesuvio-b79327d05b8e5b838ad6cfd9576b30b6/chicken",
@@ -694,7 +694,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8275bb28647abcedef0baaf2dcf34f8b",
         "label": "Chicken Paprikash",
-        "image": "https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "No Recipes",
         "url": "http://norecipes.com/recipe/chicken-paprikash/",
         "shareAs": "http://www.edamam.com/recipe/chicken-paprikash-8275bb28647abcedef0baaf2dcf34f8b/chicken",
@@ -1386,7 +1386,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_be3ba087e212f13672b553ecfa876333",
         "label": "Baked Chicken",
-        "image": "https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Martha Stewart",
         "url": "http://www.marthastewart.com/318981/baked-chicken",
         "shareAs": "http://www.edamam.com/recipe/baked-chicken-be3ba087e212f13672b553ecfa876333/chicken",
@@ -2039,7 +2039,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_11f52d212cfd385f39a377b3f1549a0c",
         "label": "Chicken Feet Stock",
-        "image": "https://www.edamam.com/web-img/ae9/ae96650072cc599967d945c5e9961bb7.JPG",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Food52",
         "url": "https://food52.com/recipes/3478-chicken-feet-stock",
         "shareAs": "http://www.edamam.com/recipe/chicken-feet-stock-11f52d212cfd385f39a377b3f1549a0c/chicken",
@@ -2702,7 +2702,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_2463f2482609d7a471dbbf3b268bd956",
         "label": "Catalan Chicken",
-        "image": "https://www.edamam.com/web-img/4d9/4d9084cbc170789caa9e997108b595de.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Bon Appetit",
         "url": "http://www.bonappetit.com/columns/breadwinner/article/how-to-get-your-kids-to-eat-sauce-let-them-cook-it-themselves",
         "shareAs": "http://www.edamam.com/recipe/catalan-chicken-2463f2482609d7a471dbbf3b268bd956/chicken",
@@ -3364,7 +3364,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4caf01683bf99ddc7c08c35774aae54c",
         "label": "Persian Chicken",
-        "image": "https://www.edamam.com/web-img/8f8/8f810dfe198fa3e520d291f3fcf62bbf.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "BBC Good Food",
         "url": "http://www.bbcgoodfood.com/recipes/7343/",
         "shareAs": "http://www.edamam.com/recipe/persian-chicken-4caf01683bf99ddc7c08c35774aae54c/chicken",
@@ -4045,7 +4045,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0ccc7e81c8377e661266b3ac48c30486",
         "label": "Dijon Chicken",
-        "image": "https://www.edamam.com/web-img/448/448099f608ac1c4975d20867334da8ec.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Simply Recipes",
         "url": "http://www.simplyrecipes.com/recipes/dijon_chicken/",
         "shareAs": "http://www.edamam.com/recipe/dijon-chicken-0ccc7e81c8377e661266b3ac48c30486/chicken",
@@ -4724,7 +4724,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_9ca0499f2ac7f1e4cae63bdf4671c1b3",
         "label": "Chicken Liver Pâté",
-        "image": "https://www.edamam.com/web-img/480/480000e79dbdd4648c4acd65630ff654.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Saveur",
         "url": "http://www.saveur.com/article/Recipes/Classic-Chicken-Pate",
         "shareAs": "http://www.edamam.com/recipe/chicken-liver-p%C3%A2t%C3%A9-9ca0499f2ac7f1e4cae63bdf4671c1b3/chicken",
@@ -5398,7 +5398,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_690c3797b4f56fc1e119c14096d651c5",
         "label": "Roast Chicken",
-        "image": "https://www.edamam.com/web-img/25f/25feccd2eed4722604be4a9ffa1ac768.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "San Francisco Gate",
         "url": "http://www.sfgate.com/food/recipes/detail.html?rid=18229&sorig=qs",
         "shareAs": "http://www.edamam.com/recipe/roast-chicken-690c3797b4f56fc1e119c14096d651c5/chicken",
@@ -6057,7 +6057,7 @@
       "recipe": {
         "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_1817e7fccea9ae39d09c0e2c7fb86cb2",
         "label": "Kreplach (Chicken Dumplings)",
-        "image": "https://www.edamam.com/web-img/4dd/4dd1c7a0d8b00e8929bd6babf0968ba2.jpg",
+        "image": "https://img.freepik.com/free-photo/deep-fried-wonton-dark-surface_1150-43553.jpg",
         "source": "Tasting Table",
         "url": "https://www.tastingtable.com/entry_detail/chefs_recipes/10154/Matzo_balls_watch_your_back.htm",
         "shareAs": "http://www.edamam.com/recipe/kreplach-chicken-dumplings-1817e7fccea9ae39d09c0e2c7fb86cb2/chicken",

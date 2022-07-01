@@ -25,7 +25,7 @@ class RecipeDetails extends StatelessWidget {
                       child: CachedNetworkImage(
                         // TODO 1
                         imageUrl:
-                            'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
+                            'https://static01.nyt.com/images/2019/10/08/dining/ml-chicken-vesuvio-horizontal/ml-chicken-vesuvio-horizontal-articleLarge-v3.jpg',
                         alignment: Alignment.topLeft,
                         fit: BoxFit.fill,
                         width: size.width,
