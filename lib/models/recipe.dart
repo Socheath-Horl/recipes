@@ -1,17 +1,28 @@
-class Recipe {
-  // final String uri;
-  // final String label;
+import 'package:equatable/equatable.dart';
+import './ingredient.dart';
 
-  // Recipe({
-  //   this.uri,
-  //   this.label,
-  // });
+class Recipe extends Equatable {
+  int? id;
+  final String? label;
+  final String? image;
+  final String? url;
 
-  // factory Recipe.fromJson(Map<String, dynamic> json) {
-  //   return Recipe(json['uri'] as String, json['label'] as String);
-  // }
+  List<Ingredient>? ingredients;
+  final double? calories;
+  final double? totalWeight;
+  final double? totalTime;
 
-  // Map<String, dynamic> toJson() {
-  //   return <String, dynamic>{'uri': uri, 'label': label};
-  // }
+  Recipe({
+    this.id,
+    this.label,
+    this.image,
+    this.url,
+    this.calories,
+    this.totalWeight,
+    this.totalTime,
+  });
+
+  @override
+  List<Object?> get props =>
+      [label, image, url, calories, totalWeight, totalTime];
 }
