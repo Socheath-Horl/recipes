@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import './ingredient.dart';
+import 'ingredient.dart';
 
 class Recipe extends Equatable {
   int? id;

@@ -5,15 +5,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:chopper/chopper.dart';
 import 'package:provider/provider.dart';
 
-import '../../models/recipe.dart';
+import '../../data/models/recipe.dart';
 import '../widgets/custom_dropdown.dart';
 import '../colors.dart';
 import '../recipe_card.dart';
 import './recipe_details.dart';
 import '../../network/recipe_model.dart';
-import '../../network/recipe_service.dart';
 import '../../network/model_response.dart';
-import '../../mock_service/mock_service.dart';
+import '../../network/service_interface.dart';
+import '../../data/repository.dart';
 
 class RecipeList extends StatefulWidget {
   const RecipeList({Key? key}) : super(key: key);
@@ -220,7 +220,7 @@ class _RecipeListState extends State<RecipeList> {
     }
 
     return FutureBuilder<Response<Result<APIRecipeQuery>>>(
-      future: Provider.of<MockService>(context).queryRecipes(
+      future: Provider.of<ServiceInterface>(context).queryRecipes(
         searchTextController.text.trim(),
         currentStartPosition,
         currentEndPosition,
