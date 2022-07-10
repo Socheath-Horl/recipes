@@ -3,17 +3,17 @@ import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 
 import './ui/main_screen.dart';
-import './data/memory_repository.dart';
-import './mock_service/mock_service.dart';
 import './data/repository.dart';
 import './network/recipe_service.dart';
 import './network/service_interface.dart';
+import './data/moor/moor_repository.dart';
 
 Future<void> main() async {
   _setupLoggin();
-
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const RecipeApp());
+  final repository = MoorRepository();
+  await repository.init();
+  runApp(RecipeApp(repository: repository));
 }
 
 void _setupLoggin() {
@@ -24,7 +24,8 @@ void _setupLoggin() {
 }
 
 class RecipeApp extends StatelessWidget {
-  const RecipeApp({Key? key}) : super(key: key);
+  final Repository repository;
+  const RecipeApp({Key? key, required this.repository}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -33,7 +34,8 @@ class RecipeApp extends StatelessWidget {
       providers: [
         Provider<Repository>(
           lazy: false,
-          create: (_) => MemoryRepository(),
+          create: (_) => repository,
+          dispose: (_, Repository repository) => repository.close(),
         ),
         Provider<ServiceInterface>(
           create: (_) => RecipeService.create(),
